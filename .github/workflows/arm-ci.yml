@@ -42,6 +42,8 @@ on:
       - main
       - develop
       - 'release/**'
+      - fanes/smoke-perf-activation
+      - fanes/smoke-perf-source
   workflow_dispatch:
 
 # Concurrency control to prevent parallel runs on the same PR
